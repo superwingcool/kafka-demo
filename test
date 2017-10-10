@@ -1,0 +1,10 @@
+socketChannel.configureBlocking(false);
+socketChannel.connect(new InetSocketAddress("http://jenkov.com", 80));
+while(! socketChannel.finishConnect() ){
+ //wait, or do something else...
+}
+
+
+
+
+
