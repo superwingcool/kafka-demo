@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-consumer" />
+        <module name="kafka-producer" />
+        <module name="kafka-stream" />
+        <module name="nio" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka" target="1.8" />
+      <module name="kafka-consumer" target="1.8" />
+      <module name="kafka-producer" target="1.8" />
+      <module name="kafka-stream" target="1.8" />
+      <module name="nio" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
